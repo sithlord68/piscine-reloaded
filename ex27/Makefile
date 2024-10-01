@@ -26,7 +26,6 @@ DGBRUN	= test
 RM		= rm -f
 
 ${BIN}:
-		clear
 		${CPL} ${OUT} ${SRC} ${CPLFLG} 
 
 all:	${BIN}
